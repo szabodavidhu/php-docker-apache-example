@@ -5,3 +5,5 @@ RUN apt-get update && \
     apt-get clean
 
 COPY myapp /var/www/html/
+
+EXPOSE 80
